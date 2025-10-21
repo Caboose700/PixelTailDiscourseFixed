@@ -1,0 +1,15 @@
+<script type='text/x-handlebars' data-template-name='components/category-title-link'>
+	<a href={{category.url}}>
+	    {{#if category.uploaded_logo.url}}
+     		{{cdn-img src=category.uploaded_logo.url class="category-logo"}}
+    	{{/if}}
+    </a>
+
+	<a href={{category.url}}>
+  		{{#if category.read_restricted}}
+		    {{fa-icon 'lock'}}
+  		{{/if}}
+
+  		<span class="category-name">{{category.name}}</span>
+	</a>
+</script>
