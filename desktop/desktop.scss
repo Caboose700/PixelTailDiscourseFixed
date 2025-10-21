@@ -84,10 +84,10 @@ p>code, li>code, pre>code {
     padding-right: 4px;
 }
 
-/* Make top controls links white */
-/*.nav li a, .category-heading {
-    color: #FFFFFF;
-}*/
+/* Add background to category heading */
+category-heading {
+    background-color: #f2f2f2;
+}
 
 .admin-controls {
     color: #000;
@@ -278,4 +278,5 @@ p>code, li>code, pre>code {
     background: #DDDDDD;
 
 }
+
 
