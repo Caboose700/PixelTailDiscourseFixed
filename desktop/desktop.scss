@@ -85,9 +85,9 @@ p>code, li>code, pre>code {
 }
 
 /* Make top controls links white */
-.nav li a, .category-heading {
+/*.nav li a, .category-heading {
     color: #FFFFFF;
-}
+}*/
 
 .admin-controls {
     color: #000;
@@ -95,7 +95,7 @@ p>code, li>code, pre>code {
 
 /* Make the topic titles stand out */
 #topic-title .container {
-    padding: 8px;
+    padding: 16px;
     margin-bottom: -8px;
     background: rgba(255,255,255,1);
     background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
@@ -109,7 +109,7 @@ p>code, li>code, pre>code {
 
 /* Fix padding on some elements */
 .category-heading, h3, .education, .period-chooser {
-    padding-left: 8px;
+    padding-left: 16px;
 }
 
 /* Make the create topic button more appealing */
@@ -278,3 +278,4 @@ p>code, li>code, pre>code {
     background: #DDDDDD;
 
 }
+
